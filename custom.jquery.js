@@ -22,8 +22,8 @@ function countChar(val) {
 
   function countCharT(val) {
     var len = val.value.length;
-    if (len > 151) {
-      val.value = val.value.substring(0, 150);
+    if (len > 81) {
+      val.value = val.value.substring(0, 80);
     } else {
       $('#charNumT').text(len);
     }

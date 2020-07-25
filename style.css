@@ -10427,6 +10427,27 @@ body {
   margin-top: 2px;
 }
 
+.card {
+  position: relative;
+}
+
+.card-ex-link {
+  position: absolute;
+  z-index: 1;
+}
+
+.card-link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.btn-dark:hover {
+  background: rgba(0, 0, 0, 0.664);
+}
+
 header {
   margin-top: 10px;
 }
@@ -10468,29 +10489,6 @@ header h5, header .h5 {
 
 #archive .header-title a:hover {
   text-decoration: underline;
-}
-
-.header-desktop .navbar-brand img {
-  max-width: 192px;
-  position: absolute;
-  top: -10px;
-  background: #F8F9FA;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.header-desktop .navbar-brand::after {
-  content: " ";
-  display: block;
-  clear: both;
-  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  height: 32px;
-  width: 192px;
-  background: transparent;
-  position: absolute;
-  top: 45px;
-  border-radius: 4px;
 }
 
 .m-auto {
@@ -10590,7 +10588,7 @@ header h5, header .h5 {
   height: 100%;
   position: relative;
   padding: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .main .section-round__perticipent-1:hover {
@@ -11255,5 +11253,29 @@ button[type="submit"] {
   .thankyou .subtitle {
     font-size: 20px;
   }
+}
+
+.champion .section-round__vs {
+  position: relative;
+}
+
+.champion .section-round__vs-text {
+  position: absolute;
+  background: #000;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  display: block;
+  z-index: 1;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 7px;
 }
 /*# sourceMappingURL=style.css.map */
