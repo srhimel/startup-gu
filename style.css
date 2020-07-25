@@ -11009,6 +11009,10 @@ input[type=number]:focus,
 
 .register-form h4, .register-form .h4 {
   font-size: 19px;
+}
+
+.register-form .more {
+  font-size: 19px;
   border-left: 4px solid #aaa;
   padding-left: 10px;
   margin-bottom: 20px;

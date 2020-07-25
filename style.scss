@@ -641,13 +641,16 @@ input[type=number]:focus,
         font-size: 13px;
         font-weight: 600;
     }
-
-    h4 {
+    h4{
+        font-size: 19px;
+    }
+    .more {
         font-size: 19px;
         border-left: 4px solid #aaa;
         padding-left: 10px;
         margin-bottom: 20px;
     }
+    
 
     .required {
         font-size: 12px;
