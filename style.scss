@@ -45,7 +45,8 @@ body {
     background: rgba(0, 0, 0, 0.664);
 }
 header{
-    margin-top: 10px;
+    border-top: 10px solid #000;
+    padding-top: 10px;
     a{
         color: #000;
         text-decoration: none;
@@ -428,7 +429,7 @@ header{
         }
 
         .page-link {
-            padding: 2px 14px;
+            padding: 2px 25px;
         }
 
         &:hover {

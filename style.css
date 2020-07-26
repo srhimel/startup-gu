@@ -10449,7 +10449,8 @@ body {
 }
 
 header {
-  margin-top: 10px;
+  border-top: 10px solid #000;
+  padding-top: 10px;
 }
 
 header a {
@@ -10815,7 +10816,7 @@ header h5, header .h5 {
 }
 
 .pagination li .page-link {
-  padding: 2px 14px;
+  padding: 2px 25px;
 }
 
 .pagination li:hover a {
